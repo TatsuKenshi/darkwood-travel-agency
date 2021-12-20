@@ -1,9 +1,31 @@
 {
-  "posts": [
+  "tours": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "destination": "Bali",
+      "departure_date": "03.15.2022",
+      "return_date": "03.22.2022",
+      "price_full": 79999,
+      "price_kids": 39999,
+      "price_students": 49999
+    },
+    {
+      "id": 2,
+      "destination": "Nassau - Bahamas",
+      "departure_date": "05.10.2022",
+      "return_date": "05.24.2022",
+      "price_full": 79999,
+      "price_kids": 39999,
+      "price_students": 49999
+    },
+    {
+      "id": 3,
+      "destination": "Mexico City",
+      "departure_date": "04.03.2022",
+      "return_date": "04.18.2022",
+      "price_full": 54999,
+      "price_kids": 24999,
+      "price_students": 39999
     }
   ],
   "comments": [
