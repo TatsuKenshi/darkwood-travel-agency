@@ -1,10 +1,22 @@
 import React from "react";
+import {useParams} from "react-router-dom";
+import {getInvoice} from "./Data"
+
 
 function Invoice() {
+let params = useParams()
+let invoice = getInvoice(parseInt(params.invoiceId, 10))
+
   return (
-    <div>
-      <h2>A Single Invoice</h2>
-    </div>
+    <main style={{ padding: "1rem" }}>
+      <h2>Invoice: {params.invoiceId}</h2>
+      <p>
+        {invoice.name}: {invoice.number}
+      </p>
+      <p>
+        Due Date: {invoice.due}
+      </p>
+    </main>
   );
 }
 
