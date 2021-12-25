@@ -5,9 +5,12 @@ import App from "./App";
 import Expenses from "./route_practice/Expenses";
 import Invoice from "./route_practice/Invoice";
 import Invoices from "./route_practice/Invoices";
+import Navbar from "./components/Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <BrowserRouter>
+    <Navbar></Navbar>
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/expenses" element={<Expenses />} />
