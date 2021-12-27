@@ -32,6 +32,9 @@ function Navbar() {
         <div>
           <NavLink to="/https://www.instagram.com">Ig</NavLink>
         </div>
+        <div>
+          <NavLink to="/https://www.telegram.com">Tg</NavLink>
+        </div>
       </div>
     </div>
   );
