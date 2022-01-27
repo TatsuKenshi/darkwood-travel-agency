@@ -3,29 +3,432 @@
     {
       "id": 1,
       "destination": "Bali",
-      "departure_date": "03.15.2022",
-      "return_date": "03.22.2022",
-      "price_full": 79999,
-      "price_kids": 39999,
-      "price_students": 49999
+      "available_tours": {
+        "tour_1": {
+          "departure_date": "03.15.2022",
+          "return_date": "03.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_2": {
+          "departure_date": "04.15.2022",
+          "return_date": "04.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_3": {
+          "departure_date": "05.15.2022",
+          "return_date": "05.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        }
+      },
+      "price": {
+        "price_full_five_stars": 89999,
+        "price_full_four_stars": 84999,
+        "price_full_three_stars": 79999,
+        "price_kids_five_stars": 49999,
+        "price_kids_four_stars": 44999,
+        "price_kids_three_stars": 39999,
+        "price_students_five_stars": 59999,
+        "price_students_four_stars": 54999,
+        "price_students_three_stars": 49999
+      },
+      "hotel_name": {
+        "five_stars": "Victoria",
+        "four_stars": {
+          "four_stars_one": "Splendid",
+          "four_stars_two": "Splendid-2"
+        },
+        "three_stars": "Plaza"
+      },
+      "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "optional_extras": {
+        "attractions": {
+          "snorkeling_school": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "windsurfing": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "pirate_cove_adventure": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        },
+        "sightseeing": {
+          "wine_and_gourmet_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "local_history_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "art_and_museums": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        }
+      }
     },
     {
       "id": 2,
       "destination": "Nassau - Bahamas",
-      "departure_date": "05.10.2022",
-      "return_date": "05.24.2022",
-      "price_full": 79999,
-      "price_kids": 39999,
-      "price_students": 49999
+      "available_tours": {
+        "tour_1": {
+          "departure_date": "03.15.2022",
+          "return_date": "03.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_2": {
+          "departure_date": "04.15.2022",
+          "return_date": "04.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_3": {
+          "departure_date": "05.15.2022",
+          "return_date": "05.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        }
+      },
+      "price": {
+        "price_full_five_stars": 89999,
+        "price_full_four_stars": 84999,
+        "price_full_three_stars": 79999,
+        "price_kids_five_stars": 49999,
+        "price_kids_four_stars": 44999,
+        "price_kids_three_stars": 39999,
+        "price_students_five_stars": 59999,
+        "price_students_four_stars": 54999,
+        "price_students_three_stars": 49999
+      },
+      "hotel_name": {
+        "five_stars": "Victoria",
+        "four_stars": {
+          "four_stars_one": "Splendid",
+          "four_stars_two": "Splendid-2"
+        },
+        "three_stars": "Plaza"
+      },
+      "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "optional_extras": {
+        "attractions": {
+          "snorkeling_school": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "windsurfing": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "pirate_cove_adventure": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        },
+        "sightseeing": {
+          "wine_and_gourmet_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "local_history_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "art_and_museums": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        }
+      }
     },
     {
       "id": 3,
-      "destination": "Mexico City",
-      "departure_date": "04.03.2022",
-      "return_date": "04.18.2022",
-      "price_full": 54999,
-      "price_kids": 24999,
-      "price_students": 39999
+      "destination": "Rome - Italy",
+      "available_tours": {
+        "tour_1": {
+          "departure_date": "03.15.2022",
+          "return_date": "03.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_2": {
+          "departure_date": "04.15.2022",
+          "return_date": "04.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_3": {
+          "departure_date": "05.15.2022",
+          "return_date": "05.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        }
+      },
+      "price": {
+        "price_full_five_stars": 89999,
+        "price_full_four_stars": 84999,
+        "price_full_three_stars": 79999,
+        "price_kids_five_stars": 49999,
+        "price_kids_four_stars": 44999,
+        "price_kids_three_stars": 39999,
+        "price_students_five_stars": 59999,
+        "price_students_four_stars": 54999,
+        "price_students_three_stars": 49999
+      },
+      "hotel_name": {
+        "five_stars": "Victoria",
+        "four_stars": {
+          "four_stars_one": "Splendid",
+          "four_stars_two": "Splendid-2"
+        },
+        "three_stars": "Plaza"
+      },
+      "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "optional_extras": {
+        "attractions": {
+          "snorkeling_school": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "windsurfing": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "pirate_cove_adventure": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        },
+        "sightseeing": {
+          "wine_and_gourmet_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "local_history_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "art_and_museums": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "destination": "Cancun - Mexico",
+      "available_tours": {
+        "tour_1": {
+          "departure_date": "03.15.2022",
+          "return_date": "03.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_2": {
+          "departure_date": "04.15.2022",
+          "return_date": "04.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_3": {
+          "departure_date": "05.15.2022",
+          "return_date": "05.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        }
+      },
+      "price": {
+        "price_full_five_stars": 89999,
+        "price_full_four_stars": 84999,
+        "price_full_three_stars": 79999,
+        "price_kids_five_stars": 49999,
+        "price_kids_four_stars": 44999,
+        "price_kids_three_stars": 39999,
+        "price_students_five_stars": 59999,
+        "price_students_four_stars": 54999,
+        "price_students_three_stars": 49999
+      },
+      "hotel_name": {
+        "five_stars": "Victoria",
+        "four_stars": {
+          "four_stars_one": "Splendid",
+          "four_stars_two": "Splendid-2"
+        },
+        "three_stars": "Plaza"
+      },
+      "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "optional_extras": {
+        "attractions": {
+          "snorkeling_school": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "windsurfing": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "pirate_cove_adventure": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        },
+        "sightseeing": {
+          "wine_and_gourmet_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "local_history_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "art_and_museums": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "destination": "Paris - France",
+      "available_tours": {
+        "tour_1": {
+          "departure_date": "03.15.2022",
+          "return_date": "03.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_2": {
+          "departure_date": "04.15.2022",
+          "return_date": "04.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        },
+        "tour_3": {
+          "departure_date": "05.15.2022",
+          "return_date": "05.22.2022",
+          "max_group_size": 100,
+          "available_spots": 65
+        }
+      },
+      "price": {
+        "price_full_five_stars": 89999,
+        "price_full_four_stars": 84999,
+        "price_full_three_stars": 79999,
+        "price_kids_five_stars": 49999,
+        "price_kids_four_stars": 44999,
+        "price_kids_three_stars": 39999,
+        "price_students_five_stars": 59999,
+        "price_students_four_stars": 54999,
+        "price_students_three_stars": 49999
+      },
+      "hotel_name": {
+        "five_stars": "Victoria",
+        "four_stars": {
+          "four_stars_one": "Splendid",
+          "four_stars_two": "Splendid-2"
+        },
+        "three_stars": "Plaza"
+      },
+      "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "optional_extras": {
+        "attractions": {
+          "snorkeling_school": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "windsurfing": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "pirate_cove_adventure": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        },
+        "sightseeing": {
+          "wine_and_gourmet_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "local_history_tour": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          },
+          "art_and_museums": {
+            "price_full": 8999,
+            "price_kids": 8499,
+            "price_students": 7999,
+            "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
+          }
+        }
+      }
     }
   ],
   "comments": [
