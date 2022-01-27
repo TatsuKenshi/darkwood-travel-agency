@@ -32,7 +32,10 @@
         "price_kids_three_stars": 39999,
         "price_students_five_stars": 59999,
         "price_students_four_stars": 54999,
-        "price_students_three_stars": 49999
+        "price_students_three_stars": 49999,
+        "price_seniors_five_stars": 59999,
+        "price_seniors_four_stars": 54999,
+        "price_seniors_three_stars": 49999
       },
       "hotel_name": {
         "five_stars": "Victoria",
@@ -43,24 +46,197 @@
         "three_stars": "Plaza"
       },
       "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "plane_tickets": {
+        "american_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "southwestern_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "quantas": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        }
+      },
       "optional_extras": {
         "attractions": {
           "snorkeling_school": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "windsurfing": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "pirate_cove_adventure": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         },
@@ -69,18 +245,21 @@
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "local_history_tour": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "art_and_museums": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         }
@@ -118,7 +297,10 @@
         "price_kids_three_stars": 39999,
         "price_students_five_stars": 59999,
         "price_students_four_stars": 54999,
-        "price_students_three_stars": 49999
+        "price_students_three_stars": 49999,
+        "price_seniors_five_stars": 59999,
+        "price_seniors_four_stars": 54999,
+        "price_seniors_three_stars": 49999
       },
       "hotel_name": {
         "five_stars": "Victoria",
@@ -129,24 +311,197 @@
         "three_stars": "Plaza"
       },
       "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "plane_tickets": {
+        "american_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "southwestern_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "quantas": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        }
+      },
       "optional_extras": {
         "attractions": {
           "snorkeling_school": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "windsurfing": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "pirate_cove_adventure": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         },
@@ -155,18 +510,21 @@
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "local_history_tour": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "art_and_museums": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         }
@@ -204,7 +562,10 @@
         "price_kids_three_stars": 39999,
         "price_students_five_stars": 59999,
         "price_students_four_stars": 54999,
-        "price_students_three_stars": 49999
+        "price_students_three_stars": 49999,
+        "price_seniors_five_stars": 59999,
+        "price_seniors_four_stars": 54999,
+        "price_seniors_three_stars": 49999
       },
       "hotel_name": {
         "five_stars": "Victoria",
@@ -215,24 +576,197 @@
         "three_stars": "Plaza"
       },
       "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "plane_tickets": {
+        "american_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "southwestern_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "quantas": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        }
+      },
       "optional_extras": {
         "attractions": {
           "snorkeling_school": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "windsurfing": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "pirate_cove_adventure": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         },
@@ -241,18 +775,21 @@
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "local_history_tour": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "art_and_museums": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         }
@@ -290,7 +827,10 @@
         "price_kids_three_stars": 39999,
         "price_students_five_stars": 59999,
         "price_students_four_stars": 54999,
-        "price_students_three_stars": 49999
+        "price_students_three_stars": 49999,
+        "price_seniors_five_stars": 59999,
+        "price_seniors_four_stars": 54999,
+        "price_seniors_three_stars": 49999
       },
       "hotel_name": {
         "five_stars": "Victoria",
@@ -301,24 +841,197 @@
         "three_stars": "Plaza"
       },
       "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "plane_tickets": {
+        "american_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "southwestern_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "quantas": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        }
+      },
       "optional_extras": {
         "attractions": {
           "snorkeling_school": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "windsurfing": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "pirate_cove_adventure": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         },
@@ -327,18 +1040,21 @@
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "local_history_tour": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "art_and_museums": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         }
@@ -376,7 +1092,10 @@
         "price_kids_three_stars": 39999,
         "price_students_five_stars": 59999,
         "price_students_four_stars": 54999,
-        "price_students_three_stars": 49999
+        "price_students_three_stars": 49999,
+        "price_seniors_five_stars": 59999,
+        "price_seniors_four_stars": 54999,
+        "price_seniors_three_stars": 49999
       },
       "hotel_name": {
         "five_stars": "Victoria",
@@ -387,24 +1106,197 @@
         "three_stars": "Plaza"
       },
       "tour_desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam? Sint amet nam quos explicabo saepe ea tenetur, quis hic voluptates nobis voluptas quo, debitis sequi minima! Veritatis a, quos excepturi, fugit ipsam, ipsa praesentium eum quae dolor ad accusantium.",
+      "plane_tickets": {
+        "american_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "southwestern_airlines": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        },
+        "quantas": {
+          "new_england": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mid_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_north_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "south_atlantic": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "east_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "west_south_central": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "mountain": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          },
+          "pacific": {
+            "price_full": 18999,
+            "price_kids": 12499,
+            "price_students": 14999,
+            "price_seniors": 4999
+          }
+        }
+      },
       "optional_extras": {
         "attractions": {
           "snorkeling_school": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "windsurfing": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "pirate_cove_adventure": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         },
@@ -413,18 +1305,21 @@
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "local_history_tour": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           },
           "art_and_museums": {
             "price_full": 8999,
             "price_kids": 8499,
             "price_students": 7999,
+            "price_seniors": 7999,
             "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia mollitia dicta non vitae a, alias id beatae eos ipsam?"
           }
         }
