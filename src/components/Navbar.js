@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Button from "react-bootstrap/Button";
 
 function Navbar() {
   return (
@@ -8,32 +7,26 @@ function Navbar() {
       <div>
         <h2>Darkwood Travel Agency</h2>
       </div>
-      <div>
-        <div>
-          <Button to="/">Home</Button>
+      <div className="social-link-container">
+        <div className="social-link-div">
+          <NavLink to="https://www.facebook.com" className="social-link">
+            Fb
+          </NavLink>
         </div>
-        <div>
-          <Button to="/tours">Tours</Button>
+        <div className="social-link-div">
+          <NavLink to="/https://www.twitter.com" className="social-link">
+            Tw
+          </NavLink>
         </div>
-        <div>
-          <Button to="/about">About</Button>
+        <div className="social-link-div">
+          <NavLink to="/https://www.instagram.com" className="social-link">
+            Ig
+          </NavLink>
         </div>
-        <div>
-          <Button to="/checkout">Checkout</Button>
-        </div>
-      </div>
-      <div>
-        <div>
-          <NavLink to="https://www.facebook.com">Fb</NavLink>
-        </div>
-        <div>
-          <NavLink to="/https://www.twitter.com">Tw</NavLink>
-        </div>
-        <div>
-          <NavLink to="/https://www.instagram.com">Ig</NavLink>
-        </div>
-        <div>
-          <NavLink to="/https://www.telegram.com">Tg</NavLink>
+        <div className="social-link-div">
+          <NavLink to="/https://www.telegram.com" className="social-link">
+            Tg
+          </NavLink>
         </div>
       </div>
     </div>
